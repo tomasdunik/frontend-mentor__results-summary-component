@@ -1,0 +1,24 @@
+@import "./partials/variables", "./partials/functions";
+
+.logo {
+  margin: rem(31, 16) 0 rem(32, 16) rem(32, 16);
+  width: rem(100, 16);
+  // nie rem ale to na % normalne
+}
+
+.header__heading {
+  color: $color-white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: em(-0.29, 28);
+  line-height: lineHeight(36, 28);
+  text-align: center;
+}
+
+.header__description {
+  color: $color-white;
+  font-weight: 500;
+  line-height: lineHeight(26, 16);
+  margin-top: 1.6rem;
+  text-align: center;
+}

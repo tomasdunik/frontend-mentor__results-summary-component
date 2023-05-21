@@ -1,0 +1,120 @@
+@import './partials/variables', './partials/functions';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ecf2ff;
+  // color: #555;
+  display: grid;
+  font-family: 'Hanken Grotesk', sans-serif;
+  // font-weight: 400;
+  // line-height: 1;
+  place-content: center;
+  height: 100vh;
+}
+
+.website {
+  // align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // height: 100vh;
+  // width: 100vw;
+  // position: relative;
+}
+
+/***********************************************************/
+/*************** GENERAL REUSABLE COMPONENTS ***************/
+/***********************************************************/
+.font--body--bold {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.font--body--medium {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.font--heading-m {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.font--heading-m-left {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.font--heading-l {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.font--heading-xl {
+  font-size: 7.2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.color--white {
+  color: #fff;
+}
+
+.color--navy-dark {
+  color: #303b59;
+  font-weight: 700;
+}
+
+.color--navy-dark--light {
+  color: rgba(48, 59, 89, 0.45);
+  font-weight: 700;
+}
+
+@media (max-width: 790px) {
+  body {
+    display: flex;
+    // max-height: 80.9rem;
+  }
+
+  .font--body--bold {
+    font-size: 1.6rem;
+  }
+
+  .font--body--medium {
+    font-size: 1.6rem;
+  }
+
+  .font--heading-m {
+    font-size: 1.8rem;
+  }
+
+  .font--heading-m-left {
+    font-size: 1.8rem;
+  }
+
+  .font--heading-l {
+    font-size: 2.4rem;
+  }
+
+  .font--heading-xl {
+    font-size: 5.6rem;
+  }
+}
