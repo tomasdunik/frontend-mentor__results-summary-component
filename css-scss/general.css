@@ -23,8 +23,8 @@ body {
   background-color: #ecf2ff;
   display: grid;
   font-family: "Hanken Grotesk", sans-serif;
-  place-content: center;
   height: 100vh;
+  place-content: center;
 }
 
 /***********************************************************/
@@ -80,6 +80,9 @@ body {
   font-weight: 700;
 }
 
+/***********************************************************/
+/* max-width: 790px */
+/***********************************************************/
 @media (max-width: 790px) {
   body {
     display: flex;
